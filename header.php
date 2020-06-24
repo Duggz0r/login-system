@@ -34,10 +34,10 @@ session_start();
                     echo '<form action="includes/login.inc.php" method="post">
                     <div class="form-group">
                         <div class="col-md-2">
-                            <input type="text" name="username-email" placeholder="Username/E-Mail" class="form-control">
+                            <input type="text" name="username-email" placeholder="Username/E-Mail" class="form-control" required>
                         </div>
                         <div class="col-md-2">
-                            <input type="password" name="password" placeholder="Password" class="form-control">
+                            <input type="password" name="password" placeholder="Password" class="form-control" required>
                         </div>
                         <div class="col-md-1">
                             <button type="submit" name="login-submit" class="btn btn-primary btn-block">Log in</button>
